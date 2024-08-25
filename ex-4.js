@@ -11,8 +11,7 @@ switch (lightBulbStatus) {
         console.log("Light Bulb is Off.");
         break;
     case "Broken":
-        lightBulbStatus = "Light bulb is Broken.";
-        console.log(lightBulbStatus);
+        console.log("Light blub is Broken.");
         break;
     default:
         console.log("Please choose the currect input (On/Off/Broken).");
